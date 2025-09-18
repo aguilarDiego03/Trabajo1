@@ -4,7 +4,7 @@ Sigue estos pasos cuidadosamente:
 1. **Ve al sitio web:** Abre tu navegador y visita  [GitHub.com.](https://github.com/)
 2. **Regístrate:** Busca y haz clic en el botón "Sign up" o "Registrarse".
 3. **Completa la información:** Te pedirá un correo electrónico, una contraseña y un nombre de usuario.
-o Consejo importante: Elige un nombre de usuario profesional (ej. tu nombre y apellido, o
+   - **Consejo importante:** Elige un nombre de usuario profesional (ej. tu nombre y apellido, o
 una variación) porque será público y te representará en la comunidad de desarrolladores.
 4. **Verifica tu cuenta:** Sigue las instrucciones para verificar tu correo electrónico.
 ¡Felicidades! Ya eres parte de la comunidad de GitHub.
@@ -18,7 +18,7 @@ opciones predeterminadas.
 **Terminal** y ejecuta los siguientes comandos, reemplazando con tu nombre y correo electrónico:
 4. git config --global user.name "Tu Nombre Completo"
 5. git config --global user.email "tu.email@ejemplo.com"
-o El --global significa que esta configuración se aplicará a todos tus proyectos en esta
+   - El --global significa que esta configuración se aplicará a todos tus proyectos en esta
 computadora. Git almacenará esto en un archivo llamado .gitconfig.
 6. **Verifica la configuración:** Para asegurarte de que todo está correcto, ejecuta:
 7. git config --global --list
@@ -29,13 +29,13 @@ Vamos a crear un espacio para tu proyecto en la nube de GitHub.
 2. **Crea un nuevo repositorio:** En la esquina superior derecha, busca un signo de más (+) y haz clic en
 "New repository" (Nuevo repositorio).
 3. **Completa los detalles del repositorio:**
-   o **Repository name:** Dale un nombre descriptivo a tu proyecto, por ejemplo: mi-primerproyecto-prepa.
-   o **Description (optional):** Escribe una breve descripción de tu proyecto (ej. "Un proyecto de
+   - **Repository name:** Dale un nombre descriptivo a tu proyecto, por ejemplo: mi-primerproyecto-prepa.
+   - **Description (optional):** Escribe una breve descripción de tu proyecto (ej. "Un proyecto de
    ejemplo para aprender Git y GitHub").
-   o **Public/Private:** Selecciona "Public" (Público) para que otros puedan verlo y
+   - **Public/Private:** Selecciona "Public" (Público) para que otros puedan verlo y
    potencialmente contribuir (¡excelente para tu portafolio!), o "Private" (Privado) si prefieres
    mantenerlo solo para ti.
-   o **Initialize this repository with:** Marca la casilla "Add a README file". El archivo
+   - **Initialize this repository with:** Marca la casilla "Add a README file". El archivo
    README.md es una descripción de tu proyecto y es una buena práctica incluirlo siempre.
 4. **Crea el repositorio:** Haz clic en el botón verde "Create repository".
 5. **Modifica el archivo README.md:** Añade tus datos generales y una foto tuya, la información debe
@@ -62,16 +62,16 @@ con el nombre de tu repositorio.
 7. cd mi-primer-proyecto-prepa
 Ahora estás dentro de la carpeta local de tu repositorio.
 ## Conceptos clave que acabas de usar:
-• **Repositorio (repo):** Donde se guarda tu proyecto (en tu computadora local y en GitHub).
-• **Rama (branch):** En esta actividad, usamos la rama main, que es la línea principal de desarrollo de tu
+   - **Repositorio (repo):** Donde se guarda tu proyecto (en tu computadora local y en GitHub).
+   - **Rama (branch):** En esta actividad, usamos la rama main, que es la línea principal de desarrollo de tu
 proyecto. En proyectos más grandes, se usan múltiples ramas para trabajar en paralelo.
-• **Commit:** Una "fotografía" de tus cambios en un momento dado, con un mensaje descriptivo.
-• **Clonar (clone):** Descargar una copia de un repositorio remoto a tu computadora.
-• **Push:** Enviar tus cambios confirmados desde tu repositorio local a GitHub.
-• **Pull:** Recibir los cambios más recientes desde GitHub a tu repositorio local. (Lo usarás más cuando
+   - **Commit:** Una "fotografía" de tus cambios en un momento dado, con un mensaje descriptivo.
+   - **Clonar (clone):** Descargar una copia de un repositorio remoto a tu computadora.
+   - **Push:** Enviar tus cambios confirmados desde tu repositorio local a GitHub.
+   - **Pull:** Recibir los cambios más recientes desde GitHub a tu repositorio local. (Lo usarás más cuando
 colabores).
-• **README.md:** Un archivo que describe tu proyecto, qué hace y cómo usarlo. Se usa Markdown
+   - **README.md:** Un archivo que describe tu proyecto, qué hace y cómo usarlo. Se usa Markdown
 para darle formato.
-• **.gitignore:** Un archivo especial donde listas archivos o carpetas que Git debe ignorar y no rastrear
+   - **.gitignore:** Un archivo especial donde listas archivos o carpetas que Git debe ignorar y no rastrear
 (ej. archivos de configuración locales, archivos temporales). Esto ayuda a mantener tu repositorio
 limpio.
